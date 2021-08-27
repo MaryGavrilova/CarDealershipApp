@@ -3,7 +3,6 @@ public class Car {
     protected String name;
     protected AutoProducer autoProducer;
 
-
     public Car(AutoProducer autoProducer) {
         name = "Model 3";
         this.autoProducer = autoProducer;

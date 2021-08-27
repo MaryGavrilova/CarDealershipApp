@@ -1,7 +1,7 @@
 public class AutoProducer extends Thread {
+    static final int TIME_FOR_PRODUCING_CAR = 3000;
 
     final CarDealership carDealership;
-    final int TIME_FOR_PRODUCING_CAR = 3000;
 
     public AutoProducer(ThreadGroup group, String name, CarDealership carDealership) {
         super(group, name);

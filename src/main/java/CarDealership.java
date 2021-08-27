@@ -2,11 +2,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CarDealership {
+    static final int TIME_FOR_PREPARING_CAR_FOR_SALE = 1000;
+    static final int TIME_FOR_PAPER_WORK = 500;
 
     List<Car> carsForSelling = new ArrayList<>();
     int soldCars = 0;
-    final int TIME_FOR_PREPARING_CAR_FOR_SALE = 1000;
-    final int TIME_FOR_PAPER_WORK = 500;
 
     public int getSoldCars() {
         return soldCars;

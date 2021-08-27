@@ -1,7 +1,7 @@
 public class Buyer extends Thread {
+    static final int TIME_FOR_MAKING_DECISION = 1000;
 
     final CarDealership carDealership;
-    final int TIME_FOR_MAKING_DECISION = 1000;
 
     public Buyer(ThreadGroup group, String name, CarDealership carDealership) {
         super(group, name);
